@@ -1,38 +1,272 @@
+@font-face {	
+  font-family: 'circular-std-black';	
+  src: url('./font/CircularStd-Black.woff') format('woff');	
+  font-weight: 900;	
+  font-style: normal;	
+}	
+
+@font-face {	
+  font-family: 'circular-std-bold';	
+  src: url('./font/CircularStd-Bold.woff') format('woff');	
+  font-weight: bold;	
+  font-style: normal;	
+}	
+
+@font-face {	
+  font-family: 'circular-std-medium';	
+  src: url('./font/CircularStd-Medium.woff') format('woff');	
+  font-weight: 500;	
+  font-style: normal;	
+}	
+
+@font-face {	
+  font-family: 'circular-std-book';	
+  src: url('./font/CircularStd-Book.woff') format('woff');	
+  font-weight: normal;	
+  font-style: normal;	
+}	
+
 .App {
   text-align: center;
+  background-color: #191f2c ;
+  height: 1000px; 
+  width: 100%; 
+  margin-left: auto;	
+  margin-right: auto;	
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App .App-header {
+  padding-top: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 400px;
+  align-content: center;
+  margin: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.App .App-header .App-header-part1 {
+  font-family: circular-std-bold, Arial, sans-serif;
+  font-size: 1em;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App .App-header .App-header-part2 {
+  font-family: circular-std-bold, Arial, sans-serif;
+  font-size: 1em;
+  color: #6070e3;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App .App-body {
+  width: 360px;
+  align-content: center;
+  margin: auto;
+  padding: 20px;
+}
+
+.App .App-body .App-updates {
+  border-radius: 5px;
+  background: #272b38;
+  width: 100%; 
+  height: 50px;
+}
+
+.App .App-body .App-updates .App-updates-notification-icon {
+  color: #828284;
+  float: left; 
+  padding-left: 15px;
+}
+
+.App .App-body .App-updates .App-updates-chevron-icon {
+  color: #FFFFFF;
+  float: right; 
+  padding-right: 15px;
+  padding-top: 15px;
+}
+
+.App .App-body .App-quantity .App-quantity-infected .App-quantity-total-cases {
+  float: left;
+  width: 55%;
+  padding-top: 20px;
+}
+
+.App .App-body .App-quantity .App-quantity-infected .App-quantity-total-cases .App-quantity-total-cases-header {
+  font-family: circular-std-medium, Arial, sans-serif;
+  font-size: 0.8em;
+  color: #a0a2a5;
+  float: left;
+}
+
+.App .App-body .App-quantity .App-quantity-infected .App-quantity-total-cases .App-quantity-total-cases-information .App-quantity-total-cases-information-count {
+  font-family: circular-std-bold, Arial, sans-serif;
+  font-size: 1.5em;
+  color: #FFFFFF;
+  float: left;
+  margin-top: 10px;
+}
+
+.App .App-body .App-quantity .App-quantity-infected .App-quantity-total-cases .App-quantity-total-cases-information .App-quantity-total-cases-information-increase {
+  border-radius: 5px;
+  background: #2b2332;
+  width: 60px; 
+  height: 30px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.App .App-body .App-quantity .App-quantity-infected .App-quantity-total-cases .App-quantity-total-cases-information .App-quantity-total-cases-information-increase .App-quantity-total-cases-information-increase-icon {
+  color: #ea5374;
+  float: left; 
+  padding-left: 5px;
+  margin-top: 6px;
+}
+
+.App .App-body .App-quantity .App-quantity-infected .App-quantity-total-cases .App-quantity-total-cases-information .App-quantity-total-cases-information-increase-count {
+  color: #ea5374;
+  float: left; 
+  padding-left: 5px;
+  margin-top: 4px;
+  font-family: circular-std-book, Arial, sans-serif;
+  font-size: 1em;
+}
+
+.App .App-body .App-quantity .App-quantity-infected .App-quantity-total-active {
+  float: left;
+  width: 45%;
+  padding-top: 20px;
+}
+
+.App .App-body .App-quantity .App-quantity-infected .App-quantity-total-active .App-quantity-total-active-header {
+  font-family: circular-std-medium, Arial, sans-serif;
+  font-size: 0.8em;
+  color: #a0a2a5;
+  float: left;
+}
+
+.App .App-body .App-quantity .App-quantity-infected .App-quantity-total-active .App-quantity-total-active-information .App-quantity-total-active-information-count {
+  font-family: circular-std-bold, Arial, sans-serif;
+  font-size: 1.5em;
+  color: #FFFFFF;
+  float: left; 
+  margin-top: 10px;
+}
+
+.App .App-body .App-quantity .App-quantity-infected .App-quantity-total-active .App-quantity-total-active-information .App-quantity-total-active-information-increase {
+  border-radius: 5px;
+  background: #2b2332;
+  width: 60px; 
+  height: 30px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.App .App-body .App-quantity .App-quantity-infected .App-quantity-total-active .App-quantity-total-active-information .App-quantity-total-active-information-increase .App-quantity-total-active-information-increase-icon{
+  color: #ea5374;
+  float: left; 
+  padding-left: 5px;
+  margin-top: 6px;
+}
+
+.App .App-body .App-quantity .App-quantity-infected .App-quantity-total-active .App-quantity-total-active-information .App-quantity-total-active-information-increase-count {
+  color: #ea5374;
+  float: left; 
+  padding-left: 5px;
+  margin-top: 4px;
+  font-family: circular-std-book, Arial, sans-serif;
+  font-size: 1em;
+}
+
+.App .App-body .App-quantity .App-quantity-results .App-quantity-results-recovered {
+  float: left;
+  width: 55%;
+  padding-top: 20px;
+}
+
+.App .App-body .App-quantity .App-quantity-results .App-quantity-results-recovered .App-quantity-total-recovered-header {
+  font-family: circular-std-medium, Arial, sans-serif;
+  font-size: 0.8em;
+  color: #a0a2a5;
+  float: left;
+}
+
+.App .App-body .App-quantity .App-quantity-results .App-quantity-results-recovered .App-quantity-total-recovered-information .App-quantity-total-recovered-information-count {
+  font-family: circular-std-bold, Arial, sans-serif;
+  font-size: 1.5em;
+  color: #FFFFFF;
+  float: left;
+  margin-top: 10px;
+
+}
+
+.App .App-body .App-quantity .App-quantity-results .App-quantity-results-recovered .App-quantity-total-recovered-information .App-quantity-total-recovered-information-increase {
+  border-radius: 5px;
+  background: #253223;
+  width: 60px; 
+  height: 30px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.App .App-body .App-quantity .App-quantity-results .App-quantity-results-recovered .App-quantity-total-recovered-information .App-quantity-total-recovered-information-increase .App-quantity-total-recovered-information-increase-icon {
+  color: #53EA70;
+  float: left; 
+  padding-left: 5px;
+  margin-top: 6px;
+}
+
+.App .App-body .App-quantity .App-quantity-results .App-quantity-results-recovered .App-quantity-total-recovered-information .App-quantity-total-recovered-information-increase .App-quantity-total-recovered-information-increase-count {
+  color: #53EA70;
+  float: left; 
+  padding-left: 5px;
+  margin-top: 4px;
+  font-family: circular-std-book, Arial, sans-serif;
+  font-size: 1em;
+}
+
+.App .App-body .App-quantity .App-quantity-results .App-quantity-results-deaths {
+  float: left;
+  padding-top: 20px;
+}
+
+.App .App-body .App-quantity .App-quantity-results .App-quantity-results-deaths .App-quantity-total-deaths-header {
+  font-family: circular-std-medium, Arial, sans-serif;
+  font-size: 0.8em;
+  color: #a0a2a5;
+  float: left;
+}
+
+.App .App-body .App-quantity .App-quantity-results .App-quantity-results-deaths .App-quantity-total-deaths-information .App-quantity-total-deaths-information-count {
+  font-family: circular-std-bold, Arial, sans-serif;
+  font-size: 1.5em;
+  color: #FFFFFF;
+  float: left; 
+  margin-top: 10px;
+}
+
+.App .App-body .App-quantity .App-quantity-results .App-quantity-results-deaths .App-quantity-total-deaths-information  .App-quantity-total-deaths-information-increase {
+  border-radius: 5px;
+  background: #2b2332;
+  width: 60px; 
+  height: 30px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.App .App-body .App-quantity .App-quantity-results .App-quantity-results-deaths .App-quantity-total-deaths-information  .App-quantity-total-deaths-information-increase .App-quantity-total-deaths-information-increase-icon {
+  color: #ea5374;
+  float: left; 
+  padding-left: 5px;
+  margin-top: 6px;
+}
+
+.App .App-body .App-quantity .App-quantity-results .App-quantity-results-deaths .App-quantity-total-deaths-information  .App-quantity-total-deaths-information-increase .App-quantity-total-deaths-information-increase-count {
+  color: #ea5374;
+  float: left; 
+  padding-left: 5px;
+  margin-top: 4px;
+  font-family: circular-std-book, Arial, sans-serif;
+  font-size: 1em;
 }
