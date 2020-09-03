@@ -99,6 +99,9 @@ function App() {
         <div className="App-chart">
           <Chart/>
         </div>
+        <div className="App-province">
+          
+        </div>
         <div className="App-vaccine">
 
         </div>

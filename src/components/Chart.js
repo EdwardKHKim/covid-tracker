@@ -7,7 +7,7 @@ class Chart extends Component {
 		super(props);
 		this.state = {
 			covidData: {
-				labels: ['Febrary', 'March', 'April', 'May', 'June', 'July', 'August'],
+				labels: ['Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug'],
 				datasets: [{
 					label: 'Confirmed Covid-19 Cases (Total)',
 					data: [
@@ -37,18 +37,45 @@ class Chart extends Component {
 				<Line
 					data={this.state.covidData}
 					options={{
-						maintainAspectRatio: false, scales: {
+						maintainAspectRatio: false, 
+						elements: {
+							point: {
+								radius: 0
+							}
+						}, 
+						title: {
+							display: true, 
+							text: '📈 Confirmed Covid-19 Cases in Canada', 
+							fontFamily: "circular-std-book, Arial, sans-serif", 
+							fontColor: '#FFFFFF', 
+							fontSize: '12', 
+							padding: 20, 
+						}, 
+						legend: {
+							display: false 
+						}, 
+						scales: {
 							xAxes: [{
+								ticks: {
+									fontColor: '#b2b4b7',
+									fontFamily: "circular-std-book, Arial, sans-serif",
+								}, 
 								gridLines: {
 									drawBorder: true,
-									lineWidth: 0
+									lineWidth: 0,
+									zeroLineColor: '#262c38'
 								}
 
 							}],
 							yAxes: [{
+								ticks: {
+									fontColor: '#b2b4b7',
+									fontFamily: "circular-std-book, Arial, sans-serif",
+								}, 
 								gridLines: {
 									drawBorder: true,
-									lineWidth: 0
+									lineWidth: 0,
+									zeroLineColor: '#262c38'
 								}
 							}]
 						}
