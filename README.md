@@ -5,8 +5,11 @@ This is a webpage that provides Covid-19 information for Canada and each provinc
 
 ## Tech Stack
 - React
-- CSS/HTML/JavaScript
-- Chart JS for line graph. 
+- Node.js
+- Chart JS
+- CSS
+- HTML
+- JavaScript
 
 ## Installation
 1. Install Homebrew (Skip this step if you rater download Node.js)
