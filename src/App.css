@@ -29,7 +29,7 @@
 .App {
   text-align: center;
   background-color: #191f2c ;
-  height: 2000px; 
+  height: 1900px; 
   width: 100%; 
   margin-left: auto;	
   margin-right: auto;	
@@ -61,26 +61,6 @@
   align-content: center;
   margin: auto;
   padding: 20px;
-}
-
-.App .App-body .App-updates {
-  border-radius: 5px;
-  background: #272b38;
-  width: 100%; 
-  height: 50px;
-}
-
-.App .App-body .App-updates .App-updates-notification-icon {
-  color: #828284;
-  float: left; 
-  padding-left: 15px;
-}
-
-.App .App-body .App-updates .App-updates-chevron-icon {
-  color: #FFFFFF;
-  float: right; 
-  padding-right: 15px;
-  padding-top: 15px;
 }
 
 .App .App-body .App-quantity .App-quantity-infected .App-quantity-total-cases {

@@ -10,14 +10,6 @@ function App() {
         🇨🇦 <text className="App-header-part1">COVID-19</text> 😷 <text className="App-header-part2">LIVE</text>
       </header>
       <body className="App-body">
-        <div className="App-updates">
-          <div className="App-updates-notification-icon">
-            <FiBell/>
-          </div>
-          <div className="App-updates-chevron-icon">
-            <FiChevronDown/>
-          </div>
-        </div>
         <div className="App-quantity">
           <div className="App-quantity-infected">
             <div className="App-quantity-total-cases">
