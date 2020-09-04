@@ -29,7 +29,7 @@
 .App {
   text-align: center;
   background-color: #191f2c ;
-  height: 1000px; 
+  height: 2000px; 
   width: 100%; 
   margin-left: auto;	
   margin-right: auto;	
@@ -228,6 +228,7 @@
 .App .App-body .App-quantity .App-quantity-results .App-quantity-results-deaths {
   float: left;
   padding-top: 20px;
+  padding-bottom: 30px;
 }
 
 .App .App-body .App-quantity .App-quantity-results .App-quantity-results-deaths .App-quantity-total-deaths-header {
@@ -269,4 +270,794 @@
   margin-top: 4px;
   font-family: circular-std-book, Arial, sans-serif;
   font-size: 1em;
+}
+
+.App .App-body .App-province .App-province-header {
+  margin-top: 30px;
+  font-family: circular-std-book, Arial, sans-serif;
+  font-size: 0.8em;
+  color: #a0a2a5;
+  float: left;
+  margin-bottom: 15px;
+}
+
+.App .App-body .App-province .App-province-header .App-province-header-names {
+  margin-right: 35px;
+  margin-left: 15px;
+}
+
+.App .App-body .App-province-british-columbia {
+  border-radius: 5px;
+  background: #272b38;
+  width: 100%; 
+  height: 50px;
+  clear: left;
+  float: left;
+}
+
+.App .App-body .App-province-british-columbia .text-british-columbia {
+  float: left;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-family: circular-std-medium, Arial, sans-serif;
+  color: #FFFFFF;
+}
+
+.App .App-body .App-province-british-columbia .text-british-columbia-divider {
+  float: left;
+  margin-left: 95px;
+  margin-top: 15px;
+  font-family: circular-std-book, Arial, sans-serif;
+  color: #a0a2a5;
+}
+
+.App .App-body .App-province-british-columbia .stats-british-columbia .stats-british-columbia-number {
+  float: left;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-family: circular-std-medium, Arial, sans-serif;
+  color: #FFFFFF;
+}
+
+.App .App-body .App-province-british-columbia .stats-british-columbia .stats-british-columbia-figure {
+  border-radius: 5px;
+  background: #2b2332;
+  width: 60px; 
+  height: 30px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.App .App-body .App-province-british-columbia .stats-british-columbia .stats-british-columbia-figure .stats-british-columbia-figure-increase-icon {
+  color: #ea5374;
+  float: left; 
+  padding-left: 5px;
+  margin-top: 7px;
+}
+
+.App .App-body .App-province-british-columbia .stats-british-columbia .stats-british-columbia-figure .stats-british-columbia-figure-increase-count {
+  color: #ea5374;
+  float: left; 
+  padding-left: 5px;
+  margin-top: 5px;
+  font-family: circular-std-book, Arial, sans-serif;
+  font-size: 1em;
+}
+
+.App .App-body .App-province-alberta {
+  border-radius: 5px;
+  width: 100%; 
+  height: 50px;
+  clear: left;
+  float: left;
+}
+
+.App .App-body .App-province-alberta .text-alberta {
+  float: left;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-family: circular-std-medium, Arial, sans-serif;
+  color: #FFFFFF;
+}
+
+.App .App-body .App-province-alberta .text-alberta-divider {
+  float: left;
+  margin-left: 96px;
+  margin-top: 15px;
+  font-family: circular-std-book, Arial, sans-serif;
+  color: #a0a2a5;
+}
+
+.App .App-body .App-province-alberta .stats-alberta .stats-alberta-number {
+  float: left;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-family: circular-std-medium, Arial, sans-serif;
+  color: #FFFFFF;
+}
+
+.App .App-body .App-province-alberta .stats-alberta .stats-alberta-figure {
+  border-radius: 5px;
+  background: #2b2332;
+  width: 60px; 
+  height: 30px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.App .App-body .App-province-alberta .stats-alberta .stats-alberta-figure .stats-alberta-figure-increase-icon {
+  color: #ea5374;
+  float: left; 
+  padding-left: 5px;
+  margin-top: 7px;
+}
+
+.App .App-body .App-province-alberta .stats-alberta .stats-alberta-figure .stats-alberta-figure-increase-count {
+  color: #ea5374;
+  float: left; 
+  padding-left: 5px;
+  margin-top: 5px;
+  font-family: circular-std-book, Arial, sans-serif;
+  font-size: 1em;
+}
+
+.App .App-body .App-province-saskatchewan {
+  border-radius: 5px;
+  background: #272b38;
+  width: 100%; 
+  height: 50px;
+  clear: left;
+  float: left;
+}
+
+.App .App-body .App-province-saskatchewan .text-saskatchewan {
+  float: left;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-family: circular-std-medium, Arial, sans-serif;
+  color: #FFFFFF;
+}
+
+.App .App-body .App-province-saskatchewan .text-saskatchewan-divider {
+  float: left;
+  margin-left: 97px;
+  margin-top: 15px;
+  font-family: circular-std-book, Arial, sans-serif;
+  color: #a0a2a5;
+}
+
+.App .App-body .App-province-saskatchewan .stats-saskatchewan .stats-saskatchewan-number {
+  float: left;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-family: circular-std-medium, Arial, sans-serif;
+  color: #FFFFFF;
+}
+
+.App .App-body .App-province-saskatchewan .stats-saskatchewan .stats-saskatchewan-figure {
+  border-radius: 5px;
+  background: #2b2332;
+  width: 60px; 
+  height: 30px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.App .App-body .App-province-saskatchewan .stats-saskatchewan .stats-saskatchewan-figure .stats-saskatchewan-figure-increase-icon {
+  color: #ea5374;
+  float: left; 
+  padding-left: 5px;
+  margin-top: 7px;
+}
+
+.App .App-body .App-province-saskatchewan .stats-saskatchewan .stats-saskatchewan-figure .stats-saskatchewan-figure-increase-count {
+  color: #ea5374;
+  float: left; 
+  padding-left: 5px;
+  margin-top: 5px;
+  font-family: circular-std-book, Arial, sans-serif;
+  font-size: 1em;
+}
+
+.App .App-body .App-province-manitoba {
+  border-radius: 5px;
+  width: 100%; 
+  height: 50px;
+  clear: left;
+  float: left;
+}
+
+.App .App-body .App-province-manitoba .text-manitoba {
+  float: left;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-family: circular-std-medium, Arial, sans-serif;
+  color: #FFFFFF;
+}
+
+.App .App-body .App-province-manitoba .text-manitoba-divider {
+  float: left;
+  margin-left: 93px;
+  margin-top: 15px;
+  font-family: circular-std-book, Arial, sans-serif;
+  color: #a0a2a5;
+}
+
+.App .App-body .App-province-manitoba .stats-manitoba .stats-manitoba-number {
+  float: left;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-family: circular-std-medium, Arial, sans-serif;
+  color: #FFFFFF;
+}
+
+.App .App-body .App-province-manitoba .stats-manitoba .stats-manitoba-figure {
+  border-radius: 5px;
+  background: #2b2332;
+  width: 60px; 
+  height: 30px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.App .App-body .App-province-manitoba .stats-manitoba .stats-manitoba-figure .stats-manitoba-figure-increase-icon {
+  color: #ea5374;
+  float: left; 
+  padding-left: 5px;
+  margin-top: 7px;
+}
+
+.App .App-body .App-province-manitoba .stats-manitoba .stats-manitoba-figure .stats-manitoba-figure-increase-count {
+  color: #ea5374;
+  float: left; 
+  padding-left: 5px;
+  margin-top: 5px;
+  font-family: circular-std-book, Arial, sans-serif;
+  font-size: 1em;
+}
+
+.App .App-body .App-province-ontario {
+  border-radius: 5px;
+  background: #272b38;
+  width: 100%; 
+  height: 50px;
+  clear: left;
+  float: left;
+}
+
+.App .App-body .App-province-ontario .text-ontario {
+  float: left;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-family: circular-std-medium, Arial, sans-serif;
+  color: #FFFFFF;
+}
+
+.App .App-body .App-province-ontario .text-ontario-divider {
+  float: left;
+  margin-left: 93px;
+  margin-top: 15px;
+  font-family: circular-std-book, Arial, sans-serif;
+  color: #a0a2a5;
+}
+
+.App .App-body .App-province-ontario .stats-ontario .stats-ontario-number {
+  float: left;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-family: circular-std-medium, Arial, sans-serif;
+  color: #FFFFFF;
+}
+
+.App .App-body .App-province-ontario .stats-ontario .stats-ontario-figure {
+  border-radius: 5px;
+  background: #2b2332;
+  width: 60px; 
+  height: 30px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.App .App-body .App-province-ontario .stats-ontario .stats-ontario-figure .stats-ontario-figure-increase-icon {
+  color: #ea5374;
+  float: left; 
+  padding-left: 5px;
+  margin-top: 7px;
+}
+
+.App .App-body .App-province-ontario .stats-ontario .stats-ontario-figure .stats-ontario-figure-increase-count {
+  color: #ea5374;
+  float: left; 
+  padding-left: 5px;
+  margin-top: 5px;
+  font-family: circular-std-book, Arial, sans-serif;
+  font-size: 1em;
+}
+
+.App .App-body .App-province-quebec {
+  border-radius: 5px;
+  width: 100%; 
+  height: 50px;
+  clear: left;
+  float: left;
+}
+
+.App .App-body .App-province-quebec .text-quebec {
+  float: left;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-family: circular-std-medium, Arial, sans-serif;
+  color: #FFFFFF;
+}
+
+.App .App-body .App-province-quebec .text-quebec-divider {
+  float: left;
+  margin-left: 93px;
+  margin-top: 15px;
+  font-family: circular-std-book, Arial, sans-serif;
+  color: #a0a2a5;
+}
+
+.App .App-body .App-province-quebec .stats-quebec .stats-quebec-number {
+  float: left;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-family: circular-std-medium, Arial, sans-serif;
+  color: #FFFFFF;
+}
+
+.App .App-body .App-province-quebec .stats-quebec .stats-quebec-figure {
+  border-radius: 5px;
+  background: #2b2332;
+  width: 60px; 
+  height: 30px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.App .App-body .App-province-quebec .stats-quebec .stats-quebec-figure .stats-quebec-figure-increase-icon {
+  color: #ea5374;
+  float: left; 
+  padding-left: 5px;
+  margin-top: 7px;
+}
+
+.App .App-body .App-province-quebec .stats-quebec .stats-quebec-figure .stats-quebec-figure-increase-count {
+  color: #ea5374;
+  float: left; 
+  padding-left: 5px;
+  margin-top: 5px;
+  font-family: circular-std-book, Arial, sans-serif;
+  font-size: 1em;
+}
+
+.App .App-body .App-province-new-brunswick {
+  border-radius: 5px;
+  background: #272b38;
+  width: 100%; 
+  height: 50px;
+  clear: left;
+  float: left;
+}
+
+.App .App-body .App-province-new-brunswick .text-new-brunswick {
+  float: left;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-family: circular-std-medium, Arial, sans-serif;
+  color: #FFFFFF;
+}
+
+.App .App-body .App-province-new-brunswick .text-new-brunswick-divider {
+  float: left;
+  margin-left: 96px;
+  margin-top: 15px;
+  font-family: circular-std-book, Arial, sans-serif;
+  color: #a0a2a5;
+}
+
+.App .App-body .App-province-new-brunswick .stats-new-brunswick .stats-new-brunswick-number {
+  float: left;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-family: circular-std-medium, Arial, sans-serif;
+  color: #FFFFFF;
+}
+
+.App .App-body .App-province-new-brunswick .stats-new-brunswick .stats-new-brunswick-figure {
+  border-radius: 5px;
+  background: #2b2332;
+  width: 60px; 
+  height: 30px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.App .App-body .App-province-new-brunswick .stats-new-brunswick .stats-new-brunswick-figure .stats-new-brunswick-figure-increase-icon {
+  color: #ea5374;
+  float: left; 
+  padding-left: 5px;
+  margin-top: 7px;
+}
+
+.App .App-body .App-province-new-brunswick .stats-new-brunswick .stats-new-brunswick-figure .stats-new-brunswick-figure-increase-count {
+  color: #ea5374;
+  float: left; 
+  padding-left: 5px;
+  margin-top: 5px;
+  font-family: circular-std-book, Arial, sans-serif;
+  font-size: 1em;
+}
+
+.App .App-body .App-province-nova-scotia {
+  border-radius: 5px;
+  width: 100%; 
+  height: 50px;
+  clear: left;
+  float: left;
+}
+
+.App .App-body .App-province-nova-scotia .text-nova-scotia {
+  float: left;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-family: circular-std-medium, Arial, sans-serif;
+  color: #FFFFFF;
+}
+
+.App .App-body .App-province-nova-scotia .text-nova-scotia-divider {
+  float: left;
+  margin-left: 97px;
+  margin-top: 15px;
+  font-family: circular-std-book, Arial, sans-serif;
+  color: #a0a2a5;
+}
+
+.App .App-body .App-province-nova-scotia .stats-nova-scotia .stats-nova-scotia-number {
+  float: left;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-family: circular-std-medium, Arial, sans-serif;
+  color: #FFFFFF;
+}
+
+.App .App-body .App-province-nova-scotia .stats-nova-scotia .stats-nova-scotia-figure {
+  border-radius: 5px;
+  background: #253223;
+  width: 60px; 
+  height: 30px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.App .App-body .App-province-nova-scotia .stats-nova-scotia .stats-nova-scotia-figure .stats-nova-scotia-figure-increase-icon {
+  color: #53EA70;
+  float: left; 
+  padding-left: 5px;
+  margin-top: 7px;
+}
+
+.App .App-body .App-province-nova-scotia .stats-nova-scotia .stats-nova-scotia-figure .stats-nova-scotia-figure-increase-count {
+  color: #53EA70;
+  float: left; 
+  padding-left: 5px;
+  margin-top: 5px;
+  font-family: circular-std-book, Arial, sans-serif;
+  font-size: 1em;
+}
+
+.App .App-body .App-province-prince-edward-island {
+  border-radius: 5px;
+  background: #272b38;
+  width: 100%; 
+  height: 50px;
+  clear: left;
+  float: left;
+}
+
+.App .App-body .App-province-prince-edward-island .text-prince-edward-island {
+  float: left;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-family: circular-std-medium, Arial, sans-serif;
+  color: #FFFFFF;
+}
+
+.App .App-body .App-province-prince-edward-island .text-prince-edward-island-divider {
+  float: left;
+  margin-left: 100px;
+  margin-top: 15px;
+  font-family: circular-std-book, Arial, sans-serif;
+  color: #a0a2a5;
+}
+
+.App .App-body .App-province-prince-edward-island .stats-prince-edward-island .stats-prince-edward-island-number {
+  float: left;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-family: circular-std-medium, Arial, sans-serif;
+  color: #FFFFFF;
+}
+
+.App .App-body .App-province-prince-edward-island .stats-prince-edward-island .stats-prince-edward-island-figure {
+  border-radius: 5px;
+  background: #253223;
+  width: 60px; 
+  height: 30px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.App .App-body .App-province-prince-edward-island .stats-prince-edward-island .stats-prince-edward-island-figure .stats-prince-edward-island-figure-increase-icon {
+  color: #53EA70;
+  float: left; 
+  padding-left: 5px;
+  margin-top: 7px;
+}
+
+.App .App-body .App-province-prince-edward-island .stats-prince-edward-island .stats-prince-edward-island-figure .stats-prince-edward-island-figure-increase-count {
+  color: #53EA70;
+  float: left; 
+  padding-left: 5px;
+  margin-top: 5px;
+  font-family: circular-std-book, Arial, sans-serif;
+  font-size: 1em;
+}
+
+.App .App-body .App-province-new-foundland-and-labrador {
+  border-radius: 5px;
+  width: 100%; 
+  height: 50px;
+  clear: left;
+  float: left;
+}
+
+.App .App-body .App-province-new-foundland-and-labrador .text-new-foundland-and-labrador {
+  float: left;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-family: circular-std-medium, Arial, sans-serif;
+  color: #FFFFFF;
+}
+
+.App .App-body .App-province-new-foundland-and-labrador .text-new-foundland-and-labrador-divider {
+  float: left;
+  margin-left: 98px;
+  margin-top: 15px;
+  font-family: circular-std-book, Arial, sans-serif;
+  color: #a0a2a5;
+}
+
+.App .App-body .App-province-new-foundland-and-labrador .stats-new-foundland-and-labrador .stats-new-foundland-and-labrador-number {
+  float: left;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-family: circular-std-medium, Arial, sans-serif;
+  color: #FFFFFF;
+}
+
+.App .App-body .App-province-new-foundland-and-labrador .stats-new-foundland-and-labrador .stats-new-foundland-and-labrador-figure {
+  border-radius: 5px;
+  background: #253223;
+  width: 60px; 
+  height: 30px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.App .App-body .App-province-new-foundland-and-labrador .stats-new-foundland-and-labrador .stats-new-foundland-and-labrador-figure .stats-new-foundland-and-labrador-figure-increase-icon {
+  color: #53EA70;
+  float: left; 
+  padding-left: 5px;
+  margin-top: 7px;
+}
+
+.App .App-body .App-province-new-foundland-and-labrador .stats-new-foundland-and-labrador .stats-new-foundland-and-labrador-figure .stats-new-foundland-and-labrador-figure-increase-count {
+  color: #53EA70;
+  float: left; 
+  padding-left: 5px;
+  margin-top: 5px;
+  font-family: circular-std-book, Arial, sans-serif;
+  font-size: 1em;
+}
+
+.App .App-body .App-province-yukon {
+  border-radius: 5px;
+  background: #272b38;
+  width: 100%; 
+  height: 50px;
+  clear: left;
+  float: left;
+}
+
+.App .App-body .App-province-yukon .text-yukon {
+  float: left;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-family: circular-std-medium, Arial, sans-serif;
+  color: #FFFFFF;
+}
+
+.App .App-body .App-province-yukon .text-yukon-divider {
+  float: left;
+  margin-left: 99px;
+  margin-top: 15px;
+  font-family: circular-std-book, Arial, sans-serif;
+  color: #a0a2a5;
+}
+
+.App .App-body .App-province-yukon .stats-yukon .stats-yukon-number {
+  float: left;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-family: circular-std-medium, Arial, sans-serif;
+  color: #FFFFFF;
+}
+
+.App .App-body .App-province-yukon .stats-yukon .stats-yukon-figure {
+  border-radius: 5px;
+  background: #253223;
+  width: 60px; 
+  height: 30px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.App .App-body .App-province-yukon .stats-yukon .stats-yukon-figure .stats-yukon-figure-increase-icon {
+  color: #53EA70;
+  float: left; 
+  padding-left: 5px;
+  margin-top: 7px;
+}
+
+.App .App-body .App-province-yukon .stats-yukon .stats-yukon-figure .stats-yukon-figure-increase-count {
+  color: #53EA70;
+  float: left; 
+  padding-left: 5px;
+  margin-top: 5px;
+  font-family: circular-std-book, Arial, sans-serif;
+  font-size: 1em;
+}
+
+.App .App-body .App-province-northwest-territories {
+  border-radius: 5px;
+  width: 100%; 
+  height: 50px;
+  clear: left;
+  float: left;
+}
+
+.App .App-body .App-province-northwest-territories .text-northwest-territories {
+  float: left;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-family: circular-std-medium, Arial, sans-serif;
+  color: #FFFFFF;
+}
+
+.App .App-body .App-province-northwest-territories .text-northwest-territories-divider {
+  float: left;
+  margin-left: 97px;
+  margin-top: 15px;
+  font-family: circular-std-book, Arial, sans-serif;
+  color: #a0a2a5;
+}
+
+.App .App-body .App-province-northwest-territories .stats-northwest-territories .stats-northwest-territories-number {
+  float: left;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-family: circular-std-medium, Arial, sans-serif;
+  color: #FFFFFF;
+}
+
+.App .App-body .App-province-northwest-territories .stats-northwest-territories .stats-northwest-territories-figure {
+  border-radius: 5px;
+  background: #253223;
+  width: 60px; 
+  height: 30px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.App .App-body .App-province-northwest-territories .stats-northwest-territories .stats-northwest-territories-figure .stats-northwest-territories-figure-increase-icon {
+  color: #53EA70;
+  float: left; 
+  padding-left: 5px;
+  margin-top: 7px;
+}
+
+.App .App-body .App-province-northwest-territories .stats-northwest-territories .stats-northwest-territories-figure .stats-northwest-territories-figure-increase-count {
+  color: #53EA70;
+  float: left; 
+  padding-left: 5px;
+  margin-top: 5px;
+  font-family: circular-std-book, Arial, sans-serif;
+  font-size: 1em;
+}
+
+.App .App-body .App-province-nunavut {
+  border-radius: 5px;
+  background: #272b38;
+  width: 100%; 
+  height: 50px;
+  clear: left;
+  float: left;
+}
+
+.App .App-body .App-province-nunavut .text-nunavut {
+  float: left;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-family: circular-std-medium, Arial, sans-serif;
+  color: #FFFFFF;
+}
+
+.App .App-body .App-province-nunavut .text-nunavut-divider {
+  float: left;
+  margin-left: 96px;
+  margin-top: 15px;
+  font-family: circular-std-book, Arial, sans-serif;
+  color: #a0a2a5;
+}
+
+.App .App-body .App-province-nunavut .stats-nunavut .stats-nunavut-number {
+  float: left;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-family: circular-std-medium, Arial, sans-serif;
+  color: #FFFFFF;
+}
+
+.App .App-body .App-province-nunavut .stats-nunavut .stats-nunavut-figure {
+  border-radius: 5px;
+  background: #253223;
+  width: 60px; 
+  height: 30px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.App .App-body .App-province-nunavut .stats-nunavut .stats-nunavut-figure .stats-nunavut-figure-increase-icon {
+  color: #53EA70;
+  float: left; 
+  padding-left: 5px;
+  margin-top: 7px;
+}
+
+.App .App-body .App-province-nunavut .stats-nunavut .stats-nunavut-figure .stats-nunavut-figure-increase-count {
+  color: #53EA70;
+  float: left; 
+  padding-left: 5px;
+  margin-top: 5px;
+  font-family: circular-std-book, Arial, sans-serif;
+  font-size: 1em;
+}
+
+.App .App-footer {
+  width: 360px;
+  align-content: center;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.App .App-footer .App-description{
+  margin-top: 50px;
+  font-family: circular-std-book, Arial, sans-serif;
+  font-size: 0.8em;
+  color: #a0a2a5;
+  float: left;
 }
